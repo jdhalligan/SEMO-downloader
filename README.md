@@ -15,7 +15,7 @@ npm install –g grunt-cli
 npm install
 grunt --install
 ``` 
- - Once the plugin has been installed with its corresponding dependencies, Grafana must be started/restarted. On the Windows operating system this can be done using Windows services, which can acessed by running ``services.msc`` via the windows Run box (windows key+r).
+ - Once the plugin has been installed with its corresponding dependencies, Grafana must be started/restarted. On the Windows Operating System this can be done using Windows services, which can acessed by running ``services.msc`` via the Windows Run box (Windows Key+r).
  
 #### Configuring kdb+ instance:
 First ensure that the kdb+ instance we wish Grafana to interact with is on an [open listening port](https://code.kx.com/q/basics/listening-port/). Then in order for Grafana to communicate with our kdb+ process we must set up the following custom .z.ws WebSocket message handler on that kdb+ instance:
