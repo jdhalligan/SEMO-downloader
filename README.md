@@ -26,7 +26,7 @@ This function can be set up over a remote handle, qcon or by including it within
 
 
 #### Adding datasource:
-Once our kdb+ instance is configured we can start up Grafana and add our kdb+ instance as a datasource, to do this navigate to the data-sources page in Grafana (*default address: http://localhost:3000*) and click *Add data source*.
+Once the kdb+ instance is configured start up Grafana and add that kdb+ instance as a datasource, to do this navigate to the data-sources page in Grafana (*default address: http://localhost:3000*) and click *Add data source*.
 At the bottom of this page under *Others* should be *KDB+*, click on this to set settings.
 *Host* should be only the address and port of the kdb+ instance given as:
 
